@@ -1,0 +1,5 @@
+rule copy:
+    input: "me.txt"
+    output: "in.txt"
+    shell: "cp {input} {output}"
+
